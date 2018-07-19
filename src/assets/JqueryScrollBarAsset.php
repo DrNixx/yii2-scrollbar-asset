@@ -1,15 +1,16 @@
 <?php
 namespace onix\assets;
 
-use yii\web\AssetBundle;
+use yii\web\AssetBundle as YiiAssetBundle;
 
-class JqueryScrollBarAsset extends AssetBundle
+class JqueryScrollBarAsset extends YiiAssetBundle
 {
     public $sourcePath = '@bower/jquery.scrollbar';
 
     public $css = [
         'jquery.scrollbar.css',
     ];
+
     public $js = [
         'jquery.scrollbar.min.js',
     ];
